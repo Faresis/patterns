@@ -22,7 +22,7 @@ public class Application implements CommandLineRunner {
         /*
          * Abstract factory allows creator/manager to specify
          * which implementation will be provided to a specific actor
-         * while all actors can have the same processign implementation
+         * while all actors can have the same processing implementation
          * and be unaware of which implementation is provided for them.
          */
         boy.play(new WoodenToysFactory());

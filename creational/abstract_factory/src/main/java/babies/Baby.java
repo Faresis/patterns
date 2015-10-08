@@ -5,9 +5,9 @@ import toys.Cat;
 import toys.Bear;
 
 public abstract class Baby {
-    private String name;
+    private final String name;
 
-    protected Baby(String name) {
+    Baby(String name) {
         this.name = name;
     }
 

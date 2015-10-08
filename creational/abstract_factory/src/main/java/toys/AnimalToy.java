@@ -1,9 +1,9 @@
 package toys;
 
 public abstract class AnimalToy {
-    private String name;
+    private final String name;
 
-    protected AnimalToy(String name) {
+    AnimalToy(String name) {
         this.name = name;
     }
 
