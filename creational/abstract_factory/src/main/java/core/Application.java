@@ -8,7 +8,7 @@ import babies.*;
 import factory.*;
 
 @SpringBootApplication
-class Application implements CommandLineRunner {
+public class Application implements CommandLineRunner {
 
     public static void main(String args[]) {
         SpringApplication.run(Application.class);
