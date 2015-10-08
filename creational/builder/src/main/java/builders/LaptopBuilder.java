@@ -4,7 +4,7 @@ import domain.Laptop;
 
 /*
  * Abstract builder specifies a set of steps
- * that are needed to be overriden by each
+ * that are needed to be overridden by each
  * concrete builder.
  * Those steps are used during regular
  * building process.
