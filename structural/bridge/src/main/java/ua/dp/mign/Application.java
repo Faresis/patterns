@@ -7,7 +7,7 @@ import ua.dp.mign.messages.*;
 import ua.dp.mign.writers.*;
 
 @SpringBootApplication
-public class Application implements CommandLineRunner {
+class Application implements CommandLineRunner {
 
     @Override
     public void run(String... strings) throws Exception {

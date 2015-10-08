@@ -8,7 +8,7 @@ import java.util.concurrent.ExecutorService;
 import ua.dp.mign.singleton.*;
 
 @SpringBootApplication
-public class Application implements CommandLineRunner {
+class Application implements CommandLineRunner {
 
     public static void main(String args[]) {
         SpringApplication.run(Application.class);

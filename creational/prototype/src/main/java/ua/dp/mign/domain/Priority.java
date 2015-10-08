@@ -10,10 +10,6 @@ public class Priority implements Cloneable {
         this.level = level;
     }
 
-    public String getLevel() {
-        return this.level;
-    }
-
     public void setLevel(String level) {
         this.level = level;
     }

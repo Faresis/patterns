@@ -4,7 +4,7 @@ import ua.dp.mign.legacysystem.SecurityOptionsReader;
 
 public class DBSecurityOptionsAdapter implements SecurityOptionsProvider {
 
-    private SecurityOptionsReader adaptee;
+    private final SecurityOptionsReader adaptee;
 
     public DBSecurityOptionsAdapter(SecurityOptionsReader adaptee) {
         this.adaptee = adaptee;

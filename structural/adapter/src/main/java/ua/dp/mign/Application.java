@@ -7,7 +7,7 @@ import ua.dp.mign.newsystem.*;
 import ua.dp.mign.legacysystem.*;
 
 @SpringBootApplication
-public class Application implements CommandLineRunner {
+class Application implements CommandLineRunner {
 
     public static void main(String args[]) {
         SpringApplication.run(Application.class);

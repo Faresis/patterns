@@ -2,9 +2,9 @@ package ua.dp.mign.log;
 
 public class LogManager {
 
-    private Logger logger;
+    private final Logger logger;
 
-    public LogManager() {
+    LogManager() {
         logger = createLogger();
     }
 
@@ -17,7 +17,7 @@ public class LogManager {
      * which allows subclasses to decide which
      * class to instantiate.
      */
-    protected Logger createLogger() {
+    Logger createLogger() {
         return new DefaultLogger();
     }
 }

@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.io.Console;
 
 @SpringBootApplication
-public class Application implements CommandLineRunner {
+class Application implements CommandLineRunner {
 
      public static void main(String args[]) {
          SpringApplication.run(Application.class);

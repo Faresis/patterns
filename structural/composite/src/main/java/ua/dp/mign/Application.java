@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import ua.dp.mign.tree.*;
 
 @SpringBootApplication
-public class Application implements CommandLineRunner {
+class Application implements CommandLineRunner {
 
     @Override
     public void run(String... strings) throws Exception {
@@ -39,7 +39,7 @@ public class Application implements CommandLineRunner {
      * Client code is able to treat individual
      * objects and compositions uniformly
      */
-    public void process(Message message) {
+    private void process(Message message) {
         message.print();
     }
 

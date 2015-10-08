@@ -4,15 +4,11 @@ import com.google.common.base.MoreObjects;
 
 public class CalendarEvent implements Prototype {
 
-    private String name;
+    private final String name;
     private Priority priority;
 
     public CalendarEvent(String name, Priority priority) {
         this.name = name;
-        this.priority = priority;
-    }
-
-    public void setPriority(Priority priority) {
         this.priority = priority;
     }
 

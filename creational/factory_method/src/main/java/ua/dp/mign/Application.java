@@ -10,7 +10,7 @@ import ua.dp.mign.log.LogManager;
 import ua.dp.mign.log.CustomizedLogManager;
 
 @SpringBootApplication
-public class Application implements CommandLineRunner {
+class Application implements CommandLineRunner {
 
     @Autowired
     private ApplicationContext context;
