@@ -5,10 +5,10 @@ import java.util.ArrayList;
 
 public class CompositeMessage implements Message {
 
-    private List<Message> messages;
+    private final List<Message> messages;
 
     public CompositeMessage() {
-        messages = new ArrayList<Message>();
+        messages = new ArrayList<>();
     }
 
     public void addMessage(Message message) {
@@ -17,10 +17,10 @@ public class CompositeMessage implements Message {
 
     @Override
     public void print() {
-        System.out.println("***** Start of composit message *****");
+        System.out.println("***** Start of composite message *****");
         for(Message message : messages) {
             message.print();
         }
-        System.out.println("***** End of composit message *****");
+        System.out.println("***** End of composite message *****");
     }
 }

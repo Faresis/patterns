@@ -1,7 +1,7 @@
 package ua.dp.mign.singleton;
 
 /*
- * This implementation use method synchroniztion.
+ * This implementation use method synchronization.
  * While code is cleaner it will suffer of performance
  * issues.
  */

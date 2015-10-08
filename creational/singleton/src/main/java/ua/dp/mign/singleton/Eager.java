@@ -5,7 +5,7 @@ package ua.dp.mign.singleton;
  * access class members while static initialization is not
  * finished.
  * Having this we are instantiating our singleton during
- * initializtion of static field.
+ * initialization of static field.
  */
 public class Eager {
     private static final Eager INSTANCE = new Eager();

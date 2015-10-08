@@ -3,7 +3,7 @@ package ua.dp.mign.singleton;
 /*
  * This implementation provides double check for empty instance.
  * First and quickest one before synchronization. It will allow
- * us to avoid synchronization effords when instance will already
+ * us to avoid synchronization efforts when instance will already
  * be created.
  * Second one is performed after thread achieved a lock on the object.
  * It is needed because a few threads can pass first check simultaneously.

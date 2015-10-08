@@ -1,7 +1,7 @@
 package ua.dp.mign.newsystem;
 
 /*
- * This class represents a user of a newsystem interface
+ * This class represents a user of a new system interface
  * SecurityOptionsProvider.
  */
 public class SecurityOptionsPrinter {

@@ -1,12 +1,9 @@
 package ua.dp.mign.log;
 
 import org.springframework.stereotype.*;
-import org.springframework.beans.factory.annotation.*;
 
 @Component
 public class CustomizedLogManager extends LogManager {
-
-    private String loggerType;
 
     /*
      * This implementation of LogManager
@@ -23,7 +20,7 @@ public class CustomizedLogManager extends LogManager {
      */
     @Override
     protected Logger createLogger() {
-        loggerType = readLoggerTypeFromConfig();
+        String loggerType = readLoggerTypeFromConfig();
         switch(loggerType) {
             case "EnterpriseLogger":
                 return new EnterpriseLogger();
